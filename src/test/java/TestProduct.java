@@ -1,3 +1,5 @@
+import model.Product;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -14,12 +16,13 @@ public class TestProduct {
         assertEquals(product.countSerialNumber(product.getId()), 10);
 
     }
-    /*
+
     @Test
+    @Ignore
     public void testCountSerialNumberShouldNotBeSuccess(){
         product=new Product("Computer",1);
         assertEquals(product.countSerialNumber(product.getId()), 20);
 
     }
-    */
+
 }

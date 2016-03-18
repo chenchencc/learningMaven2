@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +18,7 @@ public class Factory {
 
     public void addProduct(Product product){
         listOfAvailableProducts.add(product);
-
+       // listOfAvailableProducts.forEach(a->System.out.print(a));
     }
 
     public List<Product> getListOfAvailableProducts() {

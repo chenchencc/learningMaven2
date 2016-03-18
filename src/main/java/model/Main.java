@@ -1,3 +1,7 @@
+package model;
+
+import model.Factory;
+
 /**
  * Created by PBanasiak on 3/17/2016.
  */
